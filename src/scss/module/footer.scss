@@ -1,0 +1,67 @@
+.footer {
+  height: 98px;
+  background: #151515;
+}
+
+.license {
+  margin-top: 44px;
+  margin-left: 129px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+.social__icon_wrap {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+
+.social__icon_g {
+  background: url("../assets/img/google.svg");
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  &:hover {
+    background: url("../assets/img/google_hover.svg");
+    transition: all 0.4s ease;
+  }
+}
+
+.social__icon_fb {
+  background: url("../assets/img/iconf.svg");
+  display: inline-block;
+  width: 7px;
+  height: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  &:hover {
+    background: url("../assets/img/iconf_hover.svg");
+    transition: all 0.4s ease;
+  }
+}
+
+.social__icon_vk {
+  background: url("../assets/img/iconvk.svg");
+  display: inline-block;
+  width: 13.8px;
+  height: 9px;
+  margin-top: 3%;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  &:hover {
+    background: url("../assets/img/iconvk_hover.svg");
+    transition: all 0.4s ease;
+  }
+}

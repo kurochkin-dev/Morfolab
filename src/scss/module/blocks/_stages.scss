@@ -1,0 +1,56 @@
+.stages {
+  margin-top: 25px;
+}
+
+.stages__wrap-main {
+  background: #333333;
+  min-height: 550px;
+}
+
+.stages__wrap-dark {
+  min-height: 470px;
+}
+
+.stages__wrap-light {
+  min-height: 470px;
+  background: #333333;
+}
+
+.stages__title {
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+.stages__one_img {
+  margin-top: 66px;
+  max-width: 100%;
+}
+
+
+
+.stages__number {
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 145.19%;
+  color: #963EEE;
+  margin-right: 30px;
+}
+
+.stages__subtitle {
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+.stages__desc {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}

@@ -1,0 +1,28 @@
+@import "variables/var";
+@import "lib/normalize";
+@import 'base/fonts';
+@import 'base/base';
+
+
+
+// modules
+@import "module/blocks/lab";
+@import "module/blocks/category";
+@import "module/blocks/stages";
+@import "module/blocks/about";
+@import "module/blocks/coop";
+@import "module/blocks/directions";
+@import "module/blocks/offer";
+@import "module/blocks/training";
+@import "module/blocks/authorization";
+@import "module/blocks/registration";
+@import "module/blocks/coop-offer";
+@import "module/blocks/search";
+
+@import "module/header";
+@import "module/main-content";
+@import "module/footer";
+
+@import "mixin/media";
+
+

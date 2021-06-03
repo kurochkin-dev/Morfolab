@@ -1,0 +1,134 @@
+.directions {
+  background: #333333;
+  height: 735px;
+}
+
+.directions__title {
+  text-align: center;
+  padding-top: 86px;
+  margin-bottom: 100px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+// Slider styles
+.slick-slider-directions {
+  position: relative;
+  border-radius: 95px;
+  display: flex;
+  justify-content: center;
+  height: 378px;
+  width: 1500px;
+  //min-width: 100%;
+  margin: 0 auto;
+  transform: none;
+  overflow: hidden;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -15px 0 0 0;
+  z-index: 2;
+  font-size: 0;
+  background: transparent;
+  width: 208px;
+  height: 195px;
+
+}
+
+.slick-arrow.slick-prev {
+  top: 50%;
+  left: 10%;
+  background: url('../assets/img/vertical-prev.svg') 0 0 / 100% no-repeat;
+}
+
+.slick-arrow.slick-next {
+  right: 0;
+  background: url('../assets/img/vertical-next.svg') 0 0 / 100% no-repeat;
+}
+
+.slick-wrapper-directions {
+  //transform: translate3d(0px, 0px, 0px) !important;
+  min-width: 0;
+}
+
+.slick-slide-directions {
+  padding: 0;
+  display: flex;
+  justify-content: end;
+  flex-direction: row;
+  width: 1200px;
+  height: 378px;
+  min-width: 0;
+}
+
+.img-wrap {
+  width: 100%;
+  z-index: 50;
+}
+
+.vertical-slide__img {
+  position: absolute;
+  border-radius: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  transition: all 1s linear;
+  z-index: 50;
+}
+
+.vertical-slide-desc__wrap {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  vertical-align: middle;
+  padding-left: 90px;
+  transform: translateY(15%);
+  margin-left: 300px;
+  //max-width: 776px;
+  max-width: 100%;
+  height: 286px;
+  background: #2D2D2D;
+  border-radius: 20px;
+}
+
+.vertical-slide__title {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+.vertical-slide__desc {
+  width: 657px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 145.19%;
+  color: #9A9A9A;
+}
+
+
+.vertical-slide__wrap {
+  vertical-align: center;
+  //display: flex;
+  //flex-direction: row;
+  //justify-content: center;
+  //align-items: center;
+}
+
+.vertical-nav__wrap {
+  position: relative;
+}
+
+.vnext.slick-arrow {
+  transform: translate(5%, -205%);
+  cursor: pointer;
+}
+
+.vprev.slick-arrow {
+  transform: translate(5%, -75%);
+  cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.lab {
+  background: url("../assets/img/lab_bg.png") center center/cover no-repeat;
+  height: 607px;
+}
+
+.lab__title {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+  margin-top: 80px;
+  max-width: 632px;
+}
+
+.lab__desc {
+  margin-top: 30px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  width: 80%;
+}
+
+.lab__btn {
+  margin-top: 4rem;
+  width: 212px;
+  height: 48px;
+  background: #ED9C55;
+  box-shadow: 5px 5px 15px rgba(237, 156, 85, 0.2);
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+  transition: all 0.7s ease;
+  &:hover {
+    transition: all 0.7s ease;
+    background: #9C6FEE;
+  }
+}
+
+.lab__img_wrap {
+  margin-top: 60px;
+  img {
+    max-width: 110%;
+    max-height: 120%;
+  }
+}

@@ -1,0 +1,45 @@
+.offer {
+  background: url("../assets/img/offer_bg.png") center center/cover no-repeat;
+  height: 437px;
+}
+
+.offer__title {
+  margin-top: 107px;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+.offer__desc {
+  margin-top: 25px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 145.19%;
+  color: #D1D1D1;
+}
+
+.offer__btn {
+  margin-top: 31px;
+  width: 197px;
+  height: 46px;
+  background: #ED9C55;
+  box-shadow: 5px 5px 15px rgba(237, 156, 85, 0.2);
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+  transition: all 0.7s ease;
+  &:hover {
+    transition: all 0.7s ease;
+    background: #9C6FEE;
+  }
+}
+
+.offer__img_wrap {
+  margin-top: 45px;
+  img {
+    max-width: 100%;
+  }
+}

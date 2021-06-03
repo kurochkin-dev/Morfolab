@@ -1,0 +1,169 @@
+.coop {
+  background: #333333;
+  min-height: 1452px;
+  padding-top: 110px;
+}
+
+.coop__wrap {
+  padding-bottom: 50px;
+}
+
+.coop__wrap > [class*='col-'] {
+  padding-right:0;
+  padding-left:0
+}
+
+.coop__block_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.coop__block {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 20px 10px 15px 10px;
+  text-align: center;
+  width: 80%;
+  max-height: 78%;
+  border: 1px solid #DBB7FF;
+  filter: drop-shadow(0px 4px 4px #000000), drop-shadow(0px 0px 35px #963EEE);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 1s ease;
+  &:hover {
+    text-decoration: none;
+    transition: all 1s ease;
+    border: 1px solid #ED9C55;
+    border-radius: 20px;
+  }
+}
+
+.coop__block--center {
+  border: 1px solid #ED9C55;
+}
+
+.coop__subtitle {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+.coop__desc {
+  margin-bottom: 5px;
+  padding-bottom: 35px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D1D1D1;
+}
+
+.coop__img-1 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_deliv.svg") center;
+  width: 119px;
+  height: 75px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_deliv_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-2 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_int.svg") center;
+  width: 85px;
+  height: 75px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_int_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-3 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_cons.svg") center;
+  width: 80px;
+  height: 80px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_cons_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-4 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_soft.svg") center;
+  width: 99px;
+  height: 90px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_soft_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-5 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_ind_hover.svg") center;
+  width: 85px;
+  height: 90px;
+  transition: all 1s ease;
+  &:hover {
+    //background: url("../assets/img/coop_ind_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-6 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_pract.svg") center;
+  width: 85px;
+  height: 84px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_pract_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-7 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_manager.svg") center;
+  width: 76px;
+  height: 88px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_manager_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-8 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_foto.svg") center;
+  width: 98px;
+  height: 90px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_foto_hover.svg");
+    transition: all 1s ease;
+  }
+}
+
+.coop__img-9 {
+  margin: 0 auto;
+  background: url("../assets/img/coop_edu.svg") center;
+  width: 86px;
+  height: 86px;
+  transition: all 1s ease;
+  &:hover {
+    background: url("../assets/img/coop_edu_hover.svg");
+    transition: all 1s ease;
+  }
+}

@@ -1,0 +1,105 @@
+.authorization {
+  min-height: 500px;
+  margin-top: 121px;
+  padding-bottom: 100px;
+}
+
+.form__auth_block {
+  margin: 0 auto;
+  padding-top: 56px;
+  padding-bottom: 77px;
+  max-width: 100%;
+  width: 760px;
+  max-height: 746px;
+  background: #2D2D2D;
+  border-radius: 20px;
+}
+
+.form__line {
+  border-left: 1px solid #424242;
+  padding-left: 65px;
+}
+
+.form__auth_style {
+  margin: 0 auto;
+  max-width: 525px;
+  width: 100%;
+}
+
+.form__title {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+}
+
+.form__mail {
+  max-width: 100%;
+  margin-top: 50px;
+  background: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 12px;
+  color: #FFFFFF;
+  outline: none;
+}
+
+input:-webkit-autofill {
+  box-shadow: 0 0 0 50px #2D2D2D inset;
+  -webkit-text-fill-color: #FFFFFF;
+  color: #FFFFFF;
+}
+
+.form__pass {
+  margin-top: 45px;
+  background: transparent;
+  border-bottom: 1px solid #FFFFFF;
+  padding-bottom: 12px;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.btn__wrap {
+  text-align: right;
+}
+
+.form__auth_btn {
+  margin-top: 35px;
+  width: 127px;
+  height: 52px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 145.19%;
+  color: #FFFFFF;
+  background: #963EEE;
+  box-shadow: 5px 5px 15px rgba(150, 62, 238, 0.2);
+  border-radius: 50px;
+  transition: all 0.7s ease;
+
+  &:hover {
+    transition: all 0.7s ease;
+    background: #853DCD;
+  }
+}
+
+
+.form__subtitle {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D1D1D1;
+  padding-top: 40px;
+}
+
+.form__reg_question {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #D1D1D1;
+}
+
+.form__reg_link {
+  color: #8E63D6;
+  &:hover {
+    color: #853DCD;
+  }
+}
